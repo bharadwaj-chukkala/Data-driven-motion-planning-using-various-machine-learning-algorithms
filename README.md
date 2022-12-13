@@ -4,14 +4,13 @@
 
 ## Introduction
 
-The objective of the project is to perform path planning for a four-wheel vehicle with nonholonomic
-constraints, using Machine Learning, I shall use different ML Models like LInear Regression and DNN to predict the outputs properly. After checking the perfomance of both the models, the one with a better result will be finalized to train with more data and will be tested and optimized. The model is being trained and tested on real-time data that has been captured using Laser scan.
+The objective of the project is to perform path planning for a four-wheel vehicle with nonholonomic constraints, using Machine Learning, I shall use different ML Models like LInear Regression and DNN to predict the outputs properly. After checking the perfomance of both the models, the one with a better result will be finalized to train with more data and will be tested and optimized. The model is being trained and tested on real-time data that has been captured using Laser scan.
 
 ## Personnel
 
-* **Bharadwaj Chukkala** `<br>`
-  UID: 118341705 `<br>`
-  Bharadwaj Chukkala is currently a Master's student in Robotics at the University of Maryland, College Park, MD (Batch of 2023). His interests include Machine Learning, Perception and Path Planning.`<br>`
+* **Bharadwaj Chukkala**
+  UID: 118341705
+  Bharadwaj Chukkala is currently a Master's student in Robotics at the University of Maryland, College Park, MD (Batch of 2023). His interests include Machine Learning, Perception and Path Planning.
   [![Contact](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](bchukkal@umd.edu)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bharadwaj-chukkala/)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bharadwaj-chukkala)
@@ -76,7 +75,7 @@ To run this project, you will need the following:
 * Regularization
 * Generalization
 
-#### Data Preprocessing
+### Data Preprocessing
 
 1. Open the `codes` directory and open the `data_preprocessing.py` and give the path to the datasets as per the need.
 2. run the `data_preprocessing.py` file
@@ -88,7 +87,7 @@ To run this project, you will need the following:
    python3 daata_preprocessing.py
    ```
 
-#### Feature Engineering
+### Feature Engineering
 
 1. Open the `codes` directory and open the `feature_engineering.py` and give the path to the pre processed datasets as needed.
 2. run the `feature_engineering.py` file
@@ -100,20 +99,20 @@ To run this project, you will need the following:
    python3 feature_engineering.py
    ```
 
-#### Training the Models
+### Training the Models
 
 Open the `codes` directory
 
-1. Linear regression
+1. **Linear regression**
 
    * Open the `linear_regression_model.py` specify the path to the engineered dataset
    * Run the training script using `python3 linear_regression_model.py `
-2. Neural Network
+2. **Neural Network**
 
    * Open the `neural_network_model.py` specify the path to the engineered dataset
    * Run the training script using `python3 neural_network_model.py`
 
-#### Testing with the Final Model
+### Testing with the Final Model
 
 1. Once the model is trained, you can use it to make predictions on new data.  Open the `codes` directory
 2. Open the `finalized_model.py` and specify the path to the engineered `test` dataset
@@ -123,15 +122,15 @@ Open the `codes` directory
 
 The performance of the trained model will be evaluated using metrics such as accuracy, precision, and recall.
 
-#### Figures
+### Figures
 
-* ##### Cross-correlation heat map
+* #### Cross-correlation heat map
 
   ![1670891908289](image/README/1670891908289.png)
-* ##### Standard deviation chart of laser
+* #### Standard deviation chart of laser
 
   ![1670891948585](image/README/1670891948585.png)
-* ##### $E_{in}$ vs $Epochs$
+* #### $E_{in}$ vs $Epochs$
 
   * **Linear Regression**
 
@@ -139,13 +138,13 @@ The performance of the trained model will be evaluated using metrics such as acc
   * **Deep Neural Network**
 
     ![1670892029820](image/README/1670892029820.png)
-* ##### Learning Curves [Train and Test]
+* #### Learning Curves [Train and Test]
 
   ![1670894584712](image/README/1670894584712.png)
-* ##### Hyperparameter Tuning
+* #### Hyperparameter Tuning
 
   ![1670894632408](image/README/1670894632408.png)
-* ##### Regularization
+* #### Regularization
 
   ![1670894645385](image/README/1670894645385.png)
 
