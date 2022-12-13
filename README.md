@@ -44,6 +44,9 @@ To run this project, you will need the following:
 - [Python 3.6+](https://www.python.org/downloads/)
 - TensorFlow `python3 -m pip install tensorflow`
 - Scikit Learn `pip install -U scikit-learn`
+- Matplotlib `python -m pip install -U matplotlib`
+- NumPy `pip install -U numpy`
+- Pandas `pip install -U pandas`
 - [Training Data](https://drive.google.com/drive/folders/1IgiPMaMyktjIa9qH-5qqSjwFuew9TiPW)
 - [Test Data](https://drive.google.com/drive/folders/1IhVbX1VwAQf4WzamN8m81sNQTABDWw5y)
 
