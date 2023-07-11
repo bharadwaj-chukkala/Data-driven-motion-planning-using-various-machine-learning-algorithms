@@ -130,7 +130,7 @@ The performance of the trained model will be evaluated using metrics such as acc
 
 * #### Cross-correlation heat map
 
-  ![1670891908289](image/README/1670891908289.png)
+  ![1670891908289](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670891908289.png)
 * #### Standard deviation chart of laser
 
   ![1670891948585](image/README/1670891948585.png)
