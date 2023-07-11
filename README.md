@@ -133,24 +133,24 @@ The performance of the trained model will be evaluated using metrics such as acc
   ![1670891908289](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670891908289.png)
 * #### Standard deviation chart of laser
 
-  ![1670891948585](image/README/1670891948585.png)
+  ![1670891948585](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670891948585.png)
 * #### $E_{in}$ vs $Epochs$
 
   * **Linear Regression**
 
-    ![1670892010644](image/README/1670892010644.png)
+    ![1670892010644](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670892010644.png)
   * **Deep Neural Network**
 
-    ![1670892029820](image/README/1670892029820.png)
+    ![1670892029820](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670892029820.png)
 * #### Learning Curves [Train and Test]
 
-  ![1670894584712](image/README/1670894584712.png)
+  ![1670894584712](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670894584712.png)
 * #### Hyperparameter Tuning
 
-  ![1670894632408](image/README/1670894632408.png)
+  ![1670894632408](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670894632408.png)
 * #### Regularization
 
-  ![1670894645385](image/README/1670894645385.png)
+  ![1670894645385](https://github.com/bharadwaj-chukkala/Data-driven-motion-planning-using-various-machine-learning-algorithms/blob/master/image/README/1670894645385.png)
 
 ## Conclusion
 
